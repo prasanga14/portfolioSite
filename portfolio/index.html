@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prasanga Ghimire - Software Engineer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <div class="handles">
+              <a href="https://www.instagram.com/_prasanga.g" target="_blank"
+                ><img src="/assets/instalogo.png" alt="" class="insta"
+              /></a>
+              <a href="https://www.facebook.com/prasangahere" target="_blank"
+                ><img src="/assets/fblogo.png" alt="" class="facebook"
+              /></a>
+            </div>
+          </ul>
+        </nav>
+      </div>
+
+      <section class="infoContainer" id="home">
+        <div class="devInfo">
+          <div class="name">Prasanga Ghimire</div>
+          <div class="devDetails">
+            I'm a Bsc.Csit student in Kathmandu. I have a great interest in
+            full-stack development, artificial intelligence, human-computer
+            interactions, and everything in between.
+          </div>
+        </div>
+        <div class="devPic"><img src="./assets/devpic2.jpg" alt="" /></div>
+      </section>
+
+      <section class="aboutContainer" id="about">
+        <div class="developerInfo">
+          <div class="name left">About</div>
+          <span class="bodyFont">
+            I am currently a first year Computer Science major at Tribhuvan
+            University of Nepal. After graduation, I will be joining a tech
+            company as a Full Stack Web Developer while undertaking a part-time
+            Master's of Science in Software Engineering at University of Oxford.
+            <br />
+            Here are some technologies I have been working with:
+            <ul>
+              <li>Javascript ES6+</li>
+              <li>HTML & CSS</li>
+              <li>C Programming</li>
+            </ul>
+          </span>
+        </div>
+        <div class="devPic">
+          <img src="./assets/devpic.jpg" alt="Dev Image" />
+        </div>
+      </section>
+
+      <section class="guessTheNumberSection" id="projects">
+        <span class="name left projectSpan">Projects</span>
+        <div class="guessTheNumber">
+          <video
+            src="/assets/project1demo.mkv"
+            width="550px"
+            controls
+            loop
+            class="video"
+          ></video>
+          <span class="projectHeading">#1</span>
+        </div>
+        <div class="aboutProject1">
+          This is the first project which I made using HTML, CSS and Javascript.
+          This is a basic single player game where the player has to guess what
+          is the secret number hidden under the '?'. If the guess is high or low
+          the message is shown and if the guess is correct then the player wins
+          where complete screen turns green. If you want to play this game you
+          can do it by clicking 'Play Now' Button below. Hope you like this
+          game.
+          <button class="projectsBtn guessTheNumberBtn">
+            <a
+              href="https://prasanga14.github.io/guessTheNumber/"
+              target="_blank"
+              >Play Now</a
+            >
+          </button>
+        </div>
+      </section>
+
+      <section class="websiteSection">
+        <div class="websiteVideo">
+          <video
+            src="../assets/project2demo.mkv"
+            width="550px"
+            controls
+            loop
+            class="video"
+          ></video>
+          <span class="projectHeading">#2</span>
+        </div>
+        <div class="aboutWebsite">
+          This is a responsive website design for a food delivering resturant.
+          This website is build using HTML, CSS and Javascript.
+          <button class="projectsBtn guessTheNumberBtn">
+            <a href="https://prasanga14.github.io/siteFinal/" target="_blank"
+              >Visit Now</a
+            >
+          </button>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="formInfo">
+          <div class="name left">Contact Me</div>
+          If you have any query you are free to ask me. I will reach you through
+          your email. You can also checkout my other social handles that will be
+          linked down below.
+        </div>
+        <div class="form">
+          <form class="shift">
+            <input type="text" placeholder="Enter Full Name" />
+            <input type="text" placeholder="Enter Email" />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+            <input type="button" value="submit" class="projectsBtn" />
+          </form>
+        </div>
+      </section>
+      <div class="space"></div>
+    </div>
+  </body>
+</html>

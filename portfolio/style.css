@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=NTR&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.sidebar nav ul {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  font-family: "Baloo 2", "cursive";
+  list-style: none;
+  background-color: black;
+}
+
+.sidebar nav ul a {
+  padding: 0 18px;
+  text-decoration: none;
+  color: white;
+}
+.sidebar nav ul a:hover {
+  color: black;
+  background-color: #fff;
+  border-radius: 40px;
+}
+
+.infoContainer {
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.handles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 990px;
+  cursor: pointer;
+  display: none;
+}
+
+.facebook {
+  width: 30px;
+  filter: brightness(0) invert(1);
+  margin-top: 4px;
+}
+
+.insta {
+  width: 25px;
+  margin-bottom: -7px;
+  filter: brightness(0) invert(1);
+  border-radius: 500px;
+}
+
+.devInfo {
+  width: 50%;
+}
+
+.devPic img {
+  width: 400px;
+  border-radius: 30px;
+}
+
+.name {
+  font-family: "NTR", sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.devDetails {
+  margin-top: -18px;
+  font-size: 20px;
+  font-family: "NTR", sans-serif;
+}
+
+.aboutContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.developerInfo {
+  width: 50%;
+}
+
+.left {
+  margin-left: 106px;
+}
+
+.bodyFont {
+  font-size: 20px;
+  font-family: "NTR", sans-serif;
+}
+
+.projectFirstImg {
+  width: 1000px;
+  display: block;
+  margin: auto;
+}
+
+#projects {
+  display: flex;
+  justify-content: space-around;
+  /* flex-direction: column; */
+}
+
+.projectsBtn {
+  font-size: 15px;
+  padding: 7px;
+  margin: 7px;
+  background-color: black;
+  cursor: pointer;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  font-family: "Baloo 2", "cursive";
+}
+
+.projectsBtn a {
+  text-decoration: none;
+  color: white;
+}
+
+.projectsBtn:hover {
+  color: black;
+}
+
+.video {
+  display: flex;
+  margin-top: 150px;
+  margin-left: -155px;
+}
+
+.guessTheNumber {
+  width: 50%;
+}
+
+.projectSpan {
+  display: block;
+  margin-top: 30px;
+}
+
+.aboutProject1 {
+  margin-top: 150px;
+  padding: 8px;
+  font-family: "NTR", sans-serif;
+  font-size: 20px;
+  margin-left: 90px;
+}
+
+.projectHeading {
+  font-size: 40px;
+  font-weight: bolder;
+  margin: -380px 0 0 -157px;
+  display: block;
+  font-family: "NTR", sans-serif;
+}
+
+.topSpace {
+  margin-top: 100px;
+}
+
+.websiteSection {
+  display: flex;
+}
+
+.websiteVideo {
+  width: 50%;
+  margin-left: 270px;
+}
+
+.aboutWebsite {
+  margin-top: 150px;
+  margin-left: -137px;
+  font-size: 20px;
+  font-family: "NTR", sans-serif;
+}
+
+.hide {
+  display: hidden;
+}
+
+#contact {
+  display: flex;
+  /* flex-direction: column; */
+  margin-top: 230px;
+  font-family: "NTR", sans-serif;
+  border: 2px solid black;
+  width: 70vw;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+  border-radius: 40px;
+}
+
+.form {
+  width: 50%;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.form input {
+  width: 80%;
+  margin: 12px;
+  padding: 6px;
+  font-size: 15px;
+  font-family: "NTR", sans-serif;
+}
+
+.formInfo {
+  width: 50%;
+  font-size: 20px;
+  padding: 4px;
+}
+
+.form input[type="button"] {
+  font-size: 18px;
+  color: white;
+}
+.form input[type="button"]:hover {
+  background-color: white;
+  color: black;
+}
+.space {
+  margin-bottom: 20px;
+}
+
+textarea {
+  margin-left: 12px;
+  width: 80%;
+  height: 90px;
+  margin: 12px;
+  padding: 6px;
+}
